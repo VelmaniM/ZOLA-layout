@@ -1,0 +1,377 @@
+* {
+  font-size: 1vw;
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+:root {
+  --white: white;
+  --san-juan: #32577a;
+  --night-shadz: #a93047;
+  --ebb: #e8e5e4;
+  --oslo-gray: #7e9093;
+  --cerulean: #08b6c2;
+  --driftwood: #b39050;
+  --del-rio: #b29894;
+  --loblolly: #b3c7cb;
+  --coral-reef: #c2b39c;
+  --cold-turkey: #cdb9b6;
+  --pink: #ed807e;
+}
+/* header  */
+.header-main {
+  justify-items: center;
+  align-content: center;
+}
+.header-content {
+  margin-top: 0.5vw;
+  margin-bottom: 0.5vw;
+  justify-content: space-between;
+  display: flex;
+  width: 80%;
+}
+.header-name {
+  align-items: center;
+  display: flex;
+}
+.header-ryt {
+  display: flex;
+  align-items: center;
+}
+.header-name img {
+  height: 3vw;
+}
+.header-name p:nth-child(2) {
+  font-size: 1.5vw;
+  font-weight: bold;
+}
+button {
+  font-weight: bold;
+  color: var(--white);
+  background-color: var(--cerulean);
+  border-style: none;
+  padding-top: 0.6vw;
+  padding-bottom: 0.6vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  border-radius: 2vw;
+  margin-left: 1vw;
+}
+span {
+  font-size: 1.5vw;
+}
+
+/* header offer */
+.header-offer-content {
+  padding-top: 0.5vw;
+  padding-bottom: 0.5vw;
+}
+.header-offer-main {
+  color: var(--white);
+  justify-items: center;
+  background-color: var(--night-shadz);
+}
+/* hero image */
+.hero-image-main {
+  justify-items: center;
+  align-content: center;
+  height: 45vw;
+  background-color: #b3c7cb;
+  background-position: center;
+  background-image: url(image/hero.jpeg);
+  background-size: cover;
+}
+.hero-image-content h1 {
+  font-size: 3vw;
+}
+.hero-image-content {
+  width: 80%;
+}
+.image-heading {
+  justify-items: center;
+  text-align: center;
+  width: 30vw;
+  margin-bottom: 2vw;
+}
+.image-heading h2 {
+  font-size: 3vw;
+  padding-bottom: 1vw;
+}
+.image-heading p {
+  width: 25vw;
+  padding-bottom: 1vw;
+}
+.header-offer-content p {
+  color: var(--white);
+}
+.header-offer-content span {
+  color: var(--white);
+}
+.image-heading button {
+  height: 3vw;
+  font-weight: bold;
+  color: var(--white);
+  background-color: var(--cerulean);
+  border-style: none;
+  padding-top: 0.6vw;
+  padding-bottom: 0.6vw;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  border-radius: 2vw;
+  margin-left: 1vw;
+}
+
+/* icon section */
+.icon-main {
+  justify-items: center;
+  align-content: center;
+}
+.icon-content {
+  text-align: center;
+  display: flex;
+  width: 80%;
+  margin-bottom: 3vw;
+  gap: 5vw;
+}
+.icon-content img {
+  margin-bottom: 1vw;
+  margin-top: 3vw;
+  height: 4vw;
+  border: 0.1vw solid black;
+  border-radius: 100%;
+  width: 4vw;
+}
+.icon-content h2 {
+  margin-bottom: 2vw;
+}
+.icon-content u {
+  text-decoration-color: red;
+  text-decoration-thickness: 0.2vw;
+}
+/* brand section */
+.brand-main {
+  color: var(--white);
+  background-color: var(--san-juan);
+  justify-items: center;
+  align-content: center;
+}
+.brand-content {
+  margin-top: 3vw;
+  text-align: center;
+  justify-items: center;
+  width: 80%;
+  margin-bottom: 3vw;
+}
+.brand-content h1 {
+  font-size: 3vw;
+}
+.brand-content img {
+  margin-top: 2vw;
+  height: 18vw;
+  width: 18.5vw;
+}
+.brand-image {
+  display: flex;
+  justify-content: center;
+  gap: 2vw;
+}
+.brand-content p {
+  margin-top: 2vw;
+  text-align: center;
+  width: 53%;
+}
+.line {
+  background-color: var(--pink);
+  height: 0.2vw;
+  width: 13.5vw;
+  margin-left: -3vw;
+}
+.brand-content button {
+  margin-top: 2vw;
+  height: 3vw;
+  margin-bottom: 2vw;
+  font-weight: bold;
+  color: var(--white);
+  background-color: var(--cerulean);
+  border-style: none;
+  padding-top: 0.6vw;
+  padding-bottom: 0.6vw;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  border-radius: 2vw;
+  margin-left: 1vw;
+}
+
+/* rated section */
+.rated-main {
+  justify-items: center;
+  align-content: center;
+}
+.rated-content {
+  margin-top: 4vw;
+  text-align: center;
+  width: 80%;
+  margin-bottom: 3vw;
+}
+.rated-customer {
+  margin-top: 2vw;
+  display: flex;
+  justify-content: space-between;
+}
+.rated-customer p {
+  margin-top: 1vw;
+  width: 23vw;
+}
+.rated-content h1 {
+  font-size: 2vw;
+  padding: 1vw;
+}
+.rated-content span {
+  font-size: 1vw;
+  font-weight: bold;
+}
+.rated-customer i {
+  margin-top: 1vw;
+  width: 0.8vw;
+  color: rgb(255, 187, 0);
+}
+.rated-customer img {
+  height: 5vw;
+  background-position: center;
+  background-size: cover;
+  width: 5vw;
+  border-radius: 50%;
+}
+.rated-customer span {
+  font-weight: lighter;
+  text-decoration: underline;
+  text-decoration-thickness: 0.2vw;
+  text-decoration-color: red;
+}
+.rated-customer h5 {
+  margin-top: 1vw;
+}
+/* wedding section */
+.wedding-main {
+  background-position: center;
+  background-size: cover;
+  height: 35vw;
+  justify-items: center;
+  align-content: center;
+  background-image: url(image/wedingwebsite.jpeg);
+}
+.wedding-heading {
+  margin-left: 30vw;
+  width: 35vw;
+  margin-bottom: 2vw;
+}
+.wedding-heading h1 {
+  margin-top: 6vw;
+  line-height: 1vw;
+  font-size: 3vw;
+  padding-bottom: 1vw;
+}
+.wedding-heading u {
+  color: var(--pink);
+  font-size: 3vw;
+  padding-bottom: 1vw;
+}
+.wedding-heading span {
+  font-size: 1vw;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-thickness: 0.2vw;
+  text-decoration-color: red;
+}
+.wedding-heading {
+  padding-bottom: 1vw;
+}
+.wedding-heading h2 {
+  font-size: 3vw;
+  padding-bottom: 1vw;
+}
+.wedding-heading p {
+  line-height: 1.5vw;
+  width: 25vw;
+  padding-bottom: 1vw;
+}
+.wedding-heading button {
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+  font-weight: bold;
+  color: var(--white);
+  background-color: var(--cerulean);
+  height: 3vw;
+  border-style: none;
+  padding-top: 0.6vw;
+  padding-bottom: 0.6vw;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  border-radius: 2vw;
+}
+
+/* crew section */
+.crew-main {
+  margin-top: 3vw;
+  margin-bottom: 5vw;
+  justify-items: center;
+  align-content: center;
+}
+.crew-content {
+  justify-items: center;
+  width: 80%;
+  text-align: center;
+}
+.crew-content h1 {
+  font-size: 2vw;
+}
+.crew-icons {
+  margin-bottom: 2vw;
+  display: flex;
+  gap: 10vw;
+}
+.crew-avatar {
+  text-align: center;
+  margin-top: 2vw;
+}
+.crew-avatar p {
+  margin-top: 1vw;
+  width: 15vw;
+}
+.crew-avatar img {
+  margin-bottom: 1vw;
+  height: 5vw;
+  border-radius: 100%;
+}
+/* signup section */
+.signup-main {
+  text-align: center;
+  justify-items: center;
+  align-content: center;
+  height: 20vw;
+  color: var(--white);
+  background-color: var(--san-juan);
+}
+.signup-content h1 {
+  font-weight: lighter;
+  font-style: italic;
+  font-family: cursive;
+  font-size: 4vw;
+}
+.signup-content button {
+  margin-top: 3vw;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  height: 3vw;
+}
+/* footer */
+.footer-main {
+  justify-items: center;
+}
+.footer-content {
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  font-size: 0.9vw;
+  text-align: center;
+  width: 80%;
+}
