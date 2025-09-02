@@ -145,6 +145,7 @@ span {
   margin-bottom: 2vw;
 }
 .icon-content u {
+  text-underline-offset: 0.2vw;
   text-decoration-color: red;
   text-decoration-thickness: 0.2vw;
 }
@@ -245,6 +246,7 @@ span {
 }
 .rated-customer span {
   font-weight: lighter;
+  text-underline-offset: 0.2vw;
   text-decoration: underline;
   text-decoration-thickness: 0.2vw;
   text-decoration-color: red;
@@ -280,9 +282,10 @@ span {
 .wedding-heading span {
   font-size: 1vw;
   font-weight: bold;
+  text-underline-offset: 0.2vw;
   text-decoration: underline;
   text-decoration-thickness: 0.2vw;
-  text-decoration-color: red;
+  text-decoration-color: var(--pink);
 }
 .wedding-heading {
   padding-bottom: 1vw;
